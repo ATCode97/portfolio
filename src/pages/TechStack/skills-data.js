@@ -100,7 +100,7 @@ export const skills = {
       link: "https://www.python.org/",
       imgAltText: "Python",
       imgSrc: L_PYTHON,
-      skillName: "Python",
+      skillName: "Python (learning)",
     },
   ],
   databases: [
