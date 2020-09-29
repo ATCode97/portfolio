@@ -11,6 +11,7 @@ import TechStack from "./pages/TechStack/TechStack";
 
 import "./App.css";
 import Experience from "./pages/Experience/Experience";
+import Projects from "./components/Projects/Projects";
 
 const App = () => {
   return (
@@ -48,6 +49,15 @@ const App = () => {
           <Slide bottom duration={500}>
             <hr />
             <Experience />
+          </Slide>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <Projects />
           </Slide>
         </Container>
       </div>
