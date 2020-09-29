@@ -88,6 +88,7 @@ export const skills = {
     },
     //need netify as well
   ],
+
   programmingLanguages: [
     {
       link: "https://www.javascript.com/",

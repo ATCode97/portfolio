@@ -1,13 +1,15 @@
 import React from "react";
-import { Fade } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 import { Parallax } from "react-parallax";
 import { Container } from "react-bootstrap";
 
-import "./App.css";
 import MyNavbar from "./components/Navbar/MyNavbar";
 import MyCarousel from "./components/Carousel/MyCarousel";
 import TitleMessage from "./components/TitleMessage/TitleMessage";
 import AboutMe from "./pages/About/AboutMe";
+import TechStack from "./pages/TechStack/TechStack";
+
+import "./App.css";
 
 const App = () => {
   return (
@@ -22,13 +24,22 @@ const App = () => {
           bgImageAlt=""
           strength={-200}
         >
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <AboutMe />
-            </Fade>
-          </Container>
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <AboutMe />
+              </Fade>
+            </Container>
+          </div>
         </Parallax>
       </div>
+
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TechStack />
+        </Slide>
+      </Container>
     </div>
   );
 };

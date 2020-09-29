@@ -53,7 +53,7 @@ const AboutMe = () => {
                       rel="noopener noreferrer"
                     >
                       <Button className="m-2" variant="outline-success">
-                        My Resume
+                        My CV
                       </Button>
                     </a>
                   </div>
