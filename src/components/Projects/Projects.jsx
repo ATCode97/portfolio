@@ -118,16 +118,16 @@ const Projects = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/ATCode97/nc_news"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
                   href="https://github.com/akjha96/getGithubInfo"
                   target="_blank"
                 >
                   SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/ATCode97/nc_news"
+                  target="_blank"
+                >
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
@@ -218,16 +218,16 @@ const Projects = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://northcodernews2020.netlify.app/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
                   href="https://github.com/ATCode97/NC-News-frontend"
                   target="_blank"
                 >
                   SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://northcodernews2020.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>

@@ -13,7 +13,7 @@ const MyCarousel = () => {
       <Carousel
         controls={false}
         indicators
-        interval={2500}
+        interval={1500}
         pauseOnHover={false}
       >
         <Carousel.Item>

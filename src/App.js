@@ -12,6 +12,7 @@ import TechStack from "./pages/TechStack/TechStack";
 import "./App.css";
 import Experience from "./pages/Experience/Experience";
 import Projects from "./components/Projects/Projects";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -53,14 +54,19 @@ const App = () => {
         </Container>
       </div>
 
-      <div>
-        <Container className="container-box rounded">
-          <Slide bottom duration={500}>
-            <hr />
-            <Projects />
-          </Slide>
-        </Container>
-      </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Projects />
+        </Slide>
+      </Container>
+
+      <Container className="container-box rounded">
+        <Fade bottom duration={500}>
+          <hr />
+          <Contact />
+        </Fade>
+      </Container>
     </div>
   );
 };
