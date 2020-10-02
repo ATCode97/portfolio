@@ -6,10 +6,11 @@ import L_NcNewsBE from "../../assets/img/projects/NC_NewsBE.webp";
 import L_NcNewsFE from "../../assets/img/projects/NC_NewsFE.webp";
 import L_TechReview from "../../assets/img/projects/Tech_Review.webp";
 import L_worldArt from "../../assets/img/projects/worldArt.webp";
-import L_AWS_Api from "../../assets/img/projects/AWS_Gateway.webp";
-import L_DynamoDb from "../../assets/img/projects/DynamoDB.webp";
-import L_Lambda from "../../assets/img/projects/AWS_Lambda.webp";
-import L_S3 from "../../assets/img/projects/AWS_S3.webp";
+
+import L_AWS_Api from "../../assets/img/projects/aws-api-gateway.svg";
+import L_DynamoDb from "../../assets/img/projects/aws-dynamodb.svg";
+import L_Lambda from "../../assets/img/projects/aws-lambda.svg";
+import L_S3 from "../../assets/img/projects/aws-s3.svg";
 import L_Viro from "../../assets/img/projects/Viro_Media.webp";
 
 import L_REACT from "../../assets/img/skills/react.svg";

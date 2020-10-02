@@ -4,12 +4,16 @@ import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+import L_SQL from "../../assets/img/skills/sql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
+import L_NETLIFY from "../../assets/img/skills/netlify.svg";
+import L_JEST from "../../assets/img/skills/jest.svg";
+import L_MOCHA from "../../assets/img/skills/mocha.svg";
+import L_CHAI from "../../assets/img/skills/chai.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 
@@ -58,12 +62,6 @@ export const skills = {
       imgSrc: L_REACT_BOOTSTRAP,
       skillName: "React Bootstrap",
     },
-    {
-      link: "https://material-ui.com/",
-      imgAltText: "Material-UI",
-      imgSrc: L_MATERIALUI,
-      skillName: "Material-UI",
-    },
   ],
   backend: [
     {
@@ -86,7 +84,33 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    //need netify as well
+    {
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
+    },
+  ],
+
+  testingLanguages: [
+    {
+      link: "https://jestjs.io/",
+      imgAltText: "Jest",
+      imgSrc: L_JEST,
+      skillName: "Jest",
+    },
+    {
+      link: "https://mochajs.org/",
+      imgAltText: "Mocha",
+      imgSrc: L_MOCHA,
+      skillName: "Mocha",
+    },
+    {
+      link: "https://www.chaijs.com/",
+      imgAltText: "Chai",
+      imgSrc: L_CHAI,
+      skillName: "Chai",
+    },
   ],
 
   programmingLanguages: [
@@ -104,6 +128,12 @@ export const skills = {
     },
   ],
   databases: [
+    {
+      link: "https://en.wikipedia.org/wiki/SQL",
+      imgAltText: "SQL",
+      imgSrc: L_SQL,
+      skillName: "SQL",
+    },
     {
       link: "https://www.postgresql.org/",
       imgAltText: "PostgreSQL",
